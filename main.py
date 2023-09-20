@@ -67,7 +67,7 @@ def train_network(X, y, conv, dense, pool, learning_rate=0.01, epochs=100):
             
             dout_conv = conv.backward(dout_pool, learning_rate)
 
-        # Print epoch statistics
+        #print epoch statistics
         average_loss = total_loss / len(X)
         accuracy = correct_predictions / len(X_train) * 100.0
         print(f"Epoch {epoch + 1}/{epochs} - Loss: {average_loss:.4f} - Accuracy: {accuracy:.2f}%")
