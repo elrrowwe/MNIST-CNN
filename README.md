@@ -18,7 +18,7 @@ The maximum achieved accuracy upon training on the test dataset -- 84.32%. The n
 
 ![CNN accuracy results](CNN_results.png)
 
-![CNN performance](network_performance.png)
+![CNN performance](network_performace.png)
 
 # ToDo
 
